@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Menu
+#GenericName=Terminal
+Comment=Menu whisker for XFCE on Plank
+Exec=xfce4-popup-whiskermenu -p
+Terminal=false
+Type=Application
+#Encoding=UTF-8
+Icon=menu-home
+Categories=System
+#Keywords=shell;prompt;command;commandline;cmd;
+#X-Desktop-File-Install-Version=0.23

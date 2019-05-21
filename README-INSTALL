@@ -1,0 +1,39 @@
+# How to use all these files to create ellem-x
+
+1. clean install a minimum debian (no desktop)
+create a user named 'deb-admin' (without quotes) during install
+
+2. install xfce4 desktop at command prompt (see below for automated 2-4)
+sudo apt install xorg lightdm xfce4 xserver-xorg-input-libinput
+
+3. install necessary apps at command prompt
+sudo apt install xfce4-power-manager plank gufw gparted lxtask leafpad lxterminal gdebi arc-theme bleachbit accountsservice mugshot tlp network-manager-gnome network-manager-openvpn-gnome xfce4-goodies gtk3-engines-xfce lightdm-gtk-greeter-settings xserver-xorg-input-synaptics gpicview galculator mpv libappindicator3-1 conky hardinfo fonts-roboto rsync alsa-utils fonts-liberation pk-update-icon firefox-esr gnome-system-tools
+
+4. install google-chrome, timeshift and papirus icons with .deb files (download google-chrome*.deb from google)
+sudo dpkg -i papirus*.deb
+sudo dpkg -i google-chrome*.deb
+sudo dpkg -i timeshift*.deb
+
+5. empty the /usr/share/applications to get a clean menu
+rm -rf /usr/share/applications && rm -rf /usr/share/backgrounds
+
+6. extract (when necessary) and copy over all files in this git to their correct directories 
+# this will get you: 
+# - nice backgrounds
+# - nice looking greeter (lightdm)
+# - nice top panel and dock (plank)
+# - a nice home button with whisker menu on dock
+# - tray icons
+# - a button to browse incognito with one click
+# - no passwords needed when performing administrative task as administrator (sudoers and polkit overruled)
+# - sensible defaults in google chrome, default search engine duckduckgo
+
+6. reboot
+sudo reboot
+
+7. tweak and fine tune all your settings
+
+8. Enjoy ellem-x, blazing fast and very beginnerfriendly debian respin
+
+Steps 2 - 4 can be done in one script (as root)
+apt install -y xorg xfce4 lightdm xserver-xorg-input-libinput&& apt install -y xfce4-power-manager plank gufw gparted lxtask leafpad lxterminal gdebi arc-theme bleachbit accountsservice mugshot tlp network-manager-gnome network-manager-openvpn-gnome xfce4-goodies gtk3-engines-xfce lightdm-gtk-greeter-settings synaptic xserver-xorg-input-synaptics gpicview galculator mpv libappindicator3-1 conky hardinfo fonts-roboto rsync alsa-utils fonts-liberation pk-update-icon firmware-linux-nonfree firmware-linux firmware-misc-nonfree gnome-system-tools && wget https://launchpad.net/~papirus/+archive/ubuntu/papirus/+files/papirus-icon-theme_20190501-3264+pkg21~ubuntu19.04.1_all.deb && wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb && wget https://github.com/teejee2008/timeshift/releases/download/v19.01/timeshift-v19.01-amd64.deb && dpkg -i papirus*.deb && dpkg -i google-chrome*.deb && dpkg -i timeshift*.deb && apt dist-upgrade

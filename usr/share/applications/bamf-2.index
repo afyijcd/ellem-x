@@ -1,0 +1,96 @@
+gcr-prompter.desktop	/usr/lib/gcr/gcr-prompter			true
+xfce4-notes.desktop	xfce4-notes		XFCE;GNOME;	false
+python3.5.desktop	/usr/bin/python3.5			true
+xfce4-power-manager-settings.desktop	xfce4-power-manager-settings			false
+mousepad.desktop	mousepad %F			false
+debian-xterm.desktop	xterm			true
+pavucontrol.desktop	pavucontrol			false
+xfce-mouse-settings.desktop	xfce4-mouse-settings		XFCE;	false
+thunar-settings.desktop	thunar-settings			true
+xfce4-notifyd-config.desktop	xfce4-notifyd-config		XFCE;	false
+evince.desktop	evince %U			false
+hardinfo.desktop	hardinfo			false
+xfce-ui-settings.desktop	xfce4-appearance-settings		XFCE;	false
+xfce4-run.desktop	xfce4-appfinder --collapsed		XFCE;	false
+google-chrome-black.desktop	/usr/bin/google-chrome-stable --incognito %U			false
+thunar-volman-settings.desktop	thunar-volman-settings			false
+bleachbit.desktop	bleachbit			true
+xfce-display-settings.desktop	xfce4-display-settings		XFCE;	false
+gdebi.desktop	gksudo gdebi-gtk %f			false
+xfce4-mime-settings.desktop	xfce4-mime-settings		XFCE;	false
+xfce4-screenshooter.desktop	xfce4-screenshooter			false
+globaltime.desktop	globaltime			false
+hplj1020.desktop	/usr/share/foo2zjs/hplj10xx_gui.tcl			true
+panel-preferences.desktop	xfce4-panel --preferences		XFCE;	false
+gksu.desktop	gksu /usr/bin/x-terminal-emulator			true
+xfce-wmtweaks-settings.desktop	xfwm4-tweaks-settings		XFCE;	true
+system-config-printer.desktop	system-config-printer			false
+services.desktop	services-admin			false
+leafpad.desktop	leafpad %f			false
+xfce4-taskmanager.desktop	xfce4-taskmanager			true
+vlc.desktop	/usr/bin/vlc --started-from-file %U			false
+galculator.desktop	galculator			false
+xfce-keyboard-settings.desktop	xfce4-keyboard-settings		XFCE;	false
+xfce4-about.desktop	xfce4-about		XFCE;	false
+xfce4-settings-editor.desktop	xfce4-settings-editor		XFCE;	false
+xfce4-session-logout.desktop	xfce4-session-logout		XFCE;	false
+xfce-wm-settings.desktop	xfwm4-settings		XFCE;	false
+reportbug.desktop	reportbug --exit-prompt --ui gtk2			true
+python2.7.desktop	/usr/bin/python2.7			true
+lightdm-gtk-greeter-settings.desktop	lightdm-gtk-greeter-settings-pkexec			false
+xfce-xfcalendar-settings.desktop	orage -p		XFCE;	false
+panel-desktop-handler.desktop	xfce4-panel --add=launcher %u			true
+exo-terminal-emulator.desktop	exo-open --launch TerminalEmulator		XFCE;	false
+Thunar-folder-handler.desktop	thunar %F			true
+users.desktop	users-admin			false
+Thunar-bulk-rename.desktop	/usr/lib/x86_64-linux-gnu/Thunar/ThunarBulkRename %F			false
+exo-file-manager.desktop	exo-open --launch FileManager %u		XFCE;	true
+menu.desktop	xfce4-popup-whiskermenu -p			false
+xfce4-accessibility-settings.desktop	xfce4-accessibility-settings		XFCE;	false
+debian-uxterm.desktop	uxterm			true
+xfce4-sensors.desktop	xfce4-sensors			false
+notification-daemon.desktop	/usr/lib/notification-daemon/notification-daemon			true
+yelp.desktop	yelp %u		GNOME;Unity;	false
+Thunar.desktop	thunar %F			false
+xfce-backdrop-settings.desktop	xfdesktop-settings		XFCE;	false
+quodlibet.desktop	quodlibet --run --play-file %u			false
+xfce4-dict.desktop	xfce4-dict			false
+gpicview.desktop	gpicview %f			false
+shares.desktop	shares-admin			true
+vim.desktop	vim %F			false
+xarchiver.desktop	xarchiver %f			false
+mpv.desktop	mpv --player-operation-mode=pseudo-gui -- %U			false
+xfce-settings-manager.desktop	xfce4-settings-manager		XFCE;	false
+gufw.desktop	gufw			false
+xfce-session-settings.desktop	xfce4-session-settings		XFCE;	false
+xsane.desktop	xsane			false
+nm-connection-editor.desktop	nm-connection-editor			false
+xfce4-appfinder.desktop	xfce4-appfinder			true
+lxterminal.desktop	lxterminal			false
+lxtask.desktop	lxtask			false
+exfalso.desktop	exfalso			false
+display-im6.q16.desktop	/usr/bin/display-im6.q16 -nostdin %F			true
+firefox-esr.desktop	/usr/lib/firefox-esr/firefox-esr %u	Firefox-esr		false
+xfce4-clipman.desktop	xfce4-clipman		XFCE;GNOME;	false
+exo-mail-reader.desktop	exo-open --launch MailReader %u		XFCE;	false
+google-chrome.desktop	/usr/bin/google-chrome-stable %U			false
+exo-preferred-applications.desktop	exo-preferred-applications		XFCE;	false
+software-update.desktop	pkexec "/usr/sbin/system-update"			false
+bleachbit-root.desktop	gksudo bleachbit			false
+xfce4-terminal.desktop	xfce4-terminal			true
+evince-previewer.desktop	evince-previewer %U			true
+synaptic.desktop	synaptic-pkexec			false
+gcr-viewer.desktop	/usr/bin/gcr-viewer			true
+gimp.desktop	gimp-2.8 %U			false
+exo-web-browser.desktop	exo-open --launch WebBrowser %u		XFCE;	true
+plank.desktop	plank			true
+xfburn.desktop	xfburn			false
+time.desktop	time-admin			false
+timeshift-gtk.desktop	timeshift-launcher			false
+gparted.desktop	gparted-pkexec			false
+xfce-workspaces-settings.desktop	xfwm4-workspace-settings		XFCE;	false
+nm-applet.desktop	nm-applet			true
+ristretto.desktop	ristretto %F			false
+network.desktop	network-admin			false
+xfcalendar.desktop	orage %F			false
+mugshot.desktop	/usr/bin/mugshot		XFCE;	false

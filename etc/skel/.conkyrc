@@ -1,0 +1,48 @@
+#background no
+font Roboto:bold:size=10
+use_xft yes
+xftalpha 0.9
+update_interval 3.0
+total_run_times 0
+own_window yes
+own_window_type normal
+own_window_transparent yes
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+double_buffer yes
+minimum_size 180 5
+maximum_width 180
+draw_shades yes
+draw_outline no
+draw_borders no
+draw_graph_borders yes
+default_color ffffff
+default_shade_color black
+default_outline_color green
+alignment top_right
+gap_x 12
+gap_y 35
+no_buffers yes
+uppercase no
+cpu_avg_samples 4
+override_utf8_locale no
+uppercase no
+
+TEXT
+
+${alignc} SYSTEM INFO
+
+${alignc}${nodename}
+
+Uptime: ${alignr}${uptime}
+
+CPU: ${alignr}${cpu}%
+${cpubar 4 /}
+
+RAM: ${alignr}$mem / ${alignr}$memmax
+Swap: ${alignr}$swap / ${alignr}$swapmax
+HD: ${alignr}${fs_used /} / ${fs_size /}
+${membar 4 /}
+${swapbar 4 /}
+${fs_bar 4 /}
+
+

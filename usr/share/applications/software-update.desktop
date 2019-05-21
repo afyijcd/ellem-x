@@ -1,0 +1,9 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Terminal=true
+Exec=pkexec "/usr/sbin/system-update"
+Name=Software update
+Comment=script to update the system
+Icon=system-software-install-symbolic
