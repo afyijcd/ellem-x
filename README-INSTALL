@@ -37,7 +37,17 @@ sudo reboot
 - light locker settings >> Power management Setting >> Security
 need to be set to 'after screensaver is DEactivated' 
 
-8. Enjoy ellem-x, blazing fast and very beginnerfriendly debian respin
+8. Install plymouth
+plymouth-set-default-theme -l
+plymouth-set-default-theme -R [theme]
+add loglevel=3 after in grub kernel line after quiet splash
+
+9. install matter grub theme (and grub-customizer)
+https://github.com/mateosss/matter
+
+cd /usr/share/grub/themes/matter && ./matter.py -i ubuntu debian google-chrome microsoft-windows cog -hl ef233c -fg edf2f4
+
+10. Enjoy ellem-x, blazing fast and very beginnerfriendly debian respin
 
 Steps 2 - 4 can be done in one script (as root)
 apt install -y xorg xfce4 lightdm xserver-xorg-input-libinput&& apt install -y xfce4-power-manager plank gufw gparted lxtask leafpad lxterminal gdebi arc-theme bleachbit accountsservice mugshot tlp network-manager-gnome network-manager-openvpn-gnome xfce4-goodies gtk3-engines-xfce lightdm-gtk-greeter-settings synaptic xserver-xorg-input-synaptics gpicview galculator mpv libappindicator3-1 conky hardinfo fonts-roboto rsync alsa-utils fonts-liberation pk-update-icon firmware-linux-nonfree firmware-linux firmware-misc-nonfree gnome-system-tools && wget https://launchpad.net/~papirus/+archive/ubuntu/papirus/+files/papirus-icon-theme_20190501-3264+pkg21~ubuntu19.04.1_all.deb && wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb && wget https://github.com/teejee2008/timeshift/releases/download/v19.01/timeshift-v19.01-amd64.deb && dpkg -i papirus*.deb && dpkg -i google-chrome*.deb && dpkg -i timeshift*.deb && apt dist-upgrade
